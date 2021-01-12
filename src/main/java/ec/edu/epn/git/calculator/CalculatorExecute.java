@@ -13,6 +13,11 @@ public class CalculatorExecute {
         int division = c.division(4,2);
         System.out.println("c.division(4,2);" + division);
 
+        System.out.println("It is a change, whe have a new operation");
+        System.out.println("c.c.squared(2)"+c.squared(2));
+
+
+
 
     }
 }

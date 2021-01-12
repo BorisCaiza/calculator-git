@@ -23,6 +23,9 @@ public class Calculator {
         return a * b;
     }
 
+    public int squared(int a){
+        return a*a;
+    }
     public int getAns() {
         return ans;
     }

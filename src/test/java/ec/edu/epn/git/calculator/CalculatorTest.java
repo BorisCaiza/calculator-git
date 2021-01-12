@@ -32,6 +32,12 @@ public class CalculatorTest {
         assertEquals(2, c.subtraction(6, 4));
     }
 
+
+    @Test
+    public void given_one_integer_when_squared_then_ok(){
+        System.out.println("Test Nuevo");
+        assertEquals(4, c.squared(2));
+    }
     @Test (expected = ArithmeticException.class)
     public void given_two_integers_when_division_then_exception(){
         System.out.println("Test 3");
